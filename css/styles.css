@@ -127,6 +127,11 @@ body {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.contact-bar__item:hover,
+.contact-bar__item:focus {
+  color: var(--main-design-blue);
+}
+
 /* header */
 
 /* hero */
@@ -439,26 +444,26 @@ body {
 
 /* footer */
 
-.footer-container {
+.footer {
   background-color: var(--secondary-background-color);
   padding: 60px 0px;
 }
-.footer-items {
+.footer__items {
   display: flex;
   gap: 50px;
   align-items: flex-start;
 }
-.footer-info {
+.footer__info {
   display: flex;
   flex-direction: column;
   gap: 9px;
   justify-content: flex-start;
 }
-.join-us-box {
+.footer__join-box {
   width: 206px;
   height: 80px;
 }
-.footer-desc {
+.footer__desc {
   color: var(--main-design-white);
   font-size: 14px;
   line-height: 16px;
@@ -468,11 +473,11 @@ body {
   margin-bottom: 20px;
 }
 
-.footer-social-links {
+.footer__social-links {
   display: flex;
   gap: 10px;
 }
-.footer-social-icon {
+.footer__social-icon {
   fill: var(--main-design-white);
   width: 44px;
   height: 44px;
@@ -483,19 +488,19 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-social-icon:focus,
-.footer-social-icon:hover {
+.footer__social-icon:focus,
+.footer__social-icon:hover {
   background-color: var(--main-design-blue);
 }
 
-.address-info {
+.footer__address-info {
   color: var(--main-design-white);
   line-height: 171%;
   font-style: normal;
   letter-spacing: 0.03em;
   margin-top: 20px;
 }
-.footer-contact {
+.footer__contact-box {
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -503,7 +508,7 @@ body {
   gap: 9px;
 }
 
-.contact-item {
+.footer__contact-item {
   font-style: normal;
   text-decoration: none;
   color: var(--secondary-text-color);
@@ -515,10 +520,10 @@ body {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-item:hover,
-.contact-item:focus,
-.nav-link:hover,
-.nav-link:focus {
+.footer__contact-item:hover,
+.footer__contact-item:focus,
+.main-nav__link:hover,
+.main_nav__link:focus {
   color: var(--main-design-blue);
 }
 
@@ -526,15 +531,15 @@ body {
 
 /* newsletter */
 
-.newsletter-box {
+.newsletter {
   display: flex;
   align-items: flex-end;
 }
-.newsletter-form {
+.newsletter__form {
   display: flex;
   flex-direction: column;
 }
-.newsletter-input {
+.newsletter__input {
   background-color: inherit;
   color: rgba(255, 255, 255, 0.6);
   width: 358px;
@@ -547,7 +552,7 @@ body {
   border-radius: 4px;
 }
 
-.newsletter-button {
+.newsletter__button {
   display: flex;
   align-items: center;
   justify-content: center;

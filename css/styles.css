@@ -175,16 +175,17 @@ body {
 
 /* hero */
 
-.article-box {
+/* article */
+.article {
   display: flex;
   gap: 30px;
 }
-.article-icon-box {
+.article__icon {
   background-color: var(--contrast-elements-color);
   padding: 25px 100px;
   border-radius: 4px;
 }
-.article-name {
+.article__name {
   font-weight: 700;
   font-size: 14px;
   line-height: 100%;
@@ -193,11 +194,14 @@ body {
   margin-bottom: 10px;
   margin-top: 30px;
 }
-.article-overview {
+.article__overview {
   color: var(--secondary-text-color);
   line-height: 146%;
   letter-spacing: 0.03em;
 }
+
+/* article */
+
 .secondary-header {
   text-align: center;
   font-size: 36px;

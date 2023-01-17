@@ -67,7 +67,7 @@
       <section class="hero">
         <div class="container hero__container">
           <h1 class="hero__title">Efektywne rozwiązania dla waszego biznesu</h1>
-          <button data-modal-open class="button-box">Zamów usługę</button>
+          <button data-modal-open class="hero__button">Zamów usługę</button>
         </div>
       </section>
       <!--Article section-->
@@ -452,9 +452,11 @@
       </section>
     </footer>
     <!--Modal-->
-    <div class="backdrop is-hidden" data-modal>
+    <div class="modal__backdrop is-hidden" data-modal>
       <div class="modal">
-        <h2 class="modal-header">Zostaw swoje dane w formularzu poniżej</h2>
+        <h2 class="contact-form__title">
+          Zostaw swoje dane w formularzu poniżej
+        </h2>
 
         <form class="contact-form">
           <div
@@ -527,7 +529,7 @@
         </form>
         <button class="contact-form-button" type="submit">Wyślij</button>
 
-        <button data-modal-close class="modal-closing-button">&times;</button>
+        <button data-modal-close class="modal__closing-button">&times;</button>
       </div>
     </div>
     <script src="./js/modal.js"></script>

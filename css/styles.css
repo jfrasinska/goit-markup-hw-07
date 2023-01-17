@@ -573,15 +573,6 @@ body {
 
 /* modal */
 
-.backdrop {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
-  z-index: 3;
-}
 .modal {
   position: absolute;
   display: flex;
@@ -605,16 +596,26 @@ body {
   opacity: 1;
   visibility: visible;
 }
+.modal__backdrop {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 3;
+}
+
 .is-hidden {
   pointer-events: none;
   visibility: hidden;
   opacity: 0;
   transition: 200ms;
 }
-.backdrop.is-hidden .modal {
+.modal__backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0);
 }
-.modal-closing-button {
+.modal__closing-button {
   width: 30px;
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -629,7 +630,7 @@ body {
 
 /* contact form*/
 
-.modal-header {
+.contact_form__title {
   color: var(--main-design-black);
   font-weight: 700;
   font-size: 20px;

@@ -94,7 +94,7 @@
     letter-spacing: 0.03em;
     margin: 0 24px 20px;
   }
-}
-.portfolio__element:hover .portfolio__overlay {
-  transform: translatey(0);
+  &__element:hover &__overlay {
+    transform: translatey(0);
+  }
 }

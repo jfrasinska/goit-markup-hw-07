@@ -209,21 +209,23 @@ body {
   letter-spacing: 0.03em;
 }
 
-.products-container {
+/* products */
+
+.product {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 50px;
   padding-bottom: 94px;
 }
-.product-box {
+.product__box {
   position: relative;
 }
-.product-pic {
+.product__pic {
   z-index: 1;
   display: block;
 }
-.product-desc {
+.product__desc {
   position: absolute;
   color: var(--main-design-white);
   background-color: var(--photo-overlay-grey);
@@ -238,6 +240,10 @@ body {
   left: 0;
   bottom: 0;
 }
+
+/* products */
+
+/*team*/
 
 .team-section {
   background-color: var(--contrast-elements-color);
@@ -299,6 +305,11 @@ body {
   background-color: var(--main-design-blue);
   fill: var(--main-design-white);
 }
+
+/* team */
+
+/* clients */
+
 .clients-container {
   display: flex;
   flex-direction: column;
@@ -321,6 +332,10 @@ body {
   fill: var(--main-design-blue);
   border-color: var(--main-design-blue);
 }
+
+/* clients */
+
+/* portfolio */
 
 .filter {
   display: flex;
@@ -420,6 +435,10 @@ body {
   letter-spacing: 0.03em;
   margin: 0 24px 20px;
 }
+/* portfolio */
+
+/* footer */
+
 .footer-container {
   background-color: var(--secondary-background-color);
   padding: 60px 0px;
@@ -502,6 +521,11 @@ body {
 .nav-link:focus {
   color: var(--main-design-blue);
 }
+
+/* footer */
+
+/* newsletter */
+
 .newsletter-box {
   display: flex;
   align-items: flex-end;
@@ -541,6 +565,10 @@ body {
   border-radius: 4px;
   gap: 24px;
 }
+
+/* newsletter */
+
+/* modal */
 
 .backdrop {
   position: fixed;

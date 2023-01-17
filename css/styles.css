@@ -310,13 +310,13 @@ body {
 
 /* clients */
 
-.clients-container {
+.clients {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 50px;
 }
-.client-icon-box {
+.client__icon {
   width: 170px;
   height: 92px;
   fill: var(--icon-color);
@@ -327,8 +327,8 @@ body {
   align-items: center;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.client-icon-box:focus,
-.client-icon-box:hover {
+.client__icon:focus,
+.client__icon:hover {
   fill: var(--main-design-blue);
   border-color: var(--main-design-blue);
 }

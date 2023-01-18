@@ -5,6 +5,13 @@
   gap: 50px;
   padding-bottom: 94px;
 
+  &__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    vertical-align: middle;
+  }
   &__box {
     position: relative;
   }

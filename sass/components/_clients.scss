@@ -4,6 +4,11 @@
   justify-content: space-between;
   gap: 50px;
 
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
+
   &__icon {
     width: 170px;
     height: 92px;

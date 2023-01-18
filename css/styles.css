@@ -321,7 +321,7 @@ body {
   justify-content: space-between;
   gap: 50px;
 }
-.client__icon {
+.clients__icon {
   width: 170px;
   height: 92px;
   fill: var(--icon-color);
@@ -332,8 +332,8 @@ body {
   align-items: center;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.client__icon:focus,
-.client__icon:hover {
+.clients__icon:focus,
+.clients__icon:hover {
   fill: var(--main-design-blue);
   border-color: var(--main-design-blue);
 }

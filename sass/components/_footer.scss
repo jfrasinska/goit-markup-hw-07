@@ -65,7 +65,7 @@
   &__contact-item {
     font-style: normal;
     text-decoration: none;
-    color: var(--secondary-text-color);
+    color: $secondaryTextColor;
     letter-spacing: 0.02em;
     display: flex;
     gap: 10px;
@@ -76,7 +76,7 @@
 
   &:hover,
   &:focus {
-    color: var(--main-design-blue);
+    color: $mainDesignBlue;
   }
 }
 

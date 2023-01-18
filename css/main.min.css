@@ -452,7 +452,7 @@ body {
 .footer__contact-item {
   font-style: normal;
   text-decoration: none;
-  color: var(--secondary-text-color);
+  color: #757575;
   letter-spacing: 0.02em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -466,7 +466,7 @@ body {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer:hover, .footer:focus {
-  color: var(--main-design-blue);
+  color: #2196f3;
 }
 
 .newsletter {
